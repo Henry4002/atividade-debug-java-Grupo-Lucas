@@ -1,0 +1,40 @@
+🧪 Plano de Testes — Sistema Pedra, Papel e Tesoura
+Descrição:
+Testes realizados para validar o funcionamento do código e identificar erros de sintaxe e estrutura.
+
+⚠️ Teste 001 — Importação comentada indevidamente
+Entrada: Qualquer valor válido
+Resultado esperado:
+O sistema deve importar corretamente a classe Scanner.
+Resultado obtido:
+❌ O import do Scanner estava comentado (//), impedindo a utilização da entrada de dados.
+
+⚠️ Teste 002 — Problema de indentação
+Entrada: Qualquer valor válido
+Resultado esperado:
+O código deve estar corretamente indentado para melhor leitura e organização.
+Resultado obtido:
+❌ A linha Random random = new Random(); não estava indentada corretamente.
+
+⚠️ Teste 003 — Comentário indevido no código
+Entrada: Qualquer valor válido
+Resultado esperado:
+Comentários não devem interferir na execução do programa.
+Resultado obtido:
+❌ A linha do System.out.println("=== Pedra, Papel e Tesoura ==="); estava comentada, impedindo sua execução.
+
+⚠️ Teste 004 — Erro na condição do else if
+Entrada: pedra
+Resultado esperado:
+O sistema deve avaliar corretamente a condição de vitória.
+Resultado obtido:
+❌ O else if possuía parênteses incorretos/extras, causando erro de sintaxe.
+
+📌 Conclusão
+O sistema apresenta falhas em:
+
+Uso incorreto de comentários
+Indentação do código
+Estrutura das condições (if/else)
+
+Esses problemas impedem a correta execução e compreensão do código, sendo necessário corrigi-los para garantir seu funcionamento adequado.
